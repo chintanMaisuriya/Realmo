@@ -4,7 +4,7 @@
 <p align="center">A simple Swift Application to demonstrate the use of a Realm database to store data locally.</p>
 
 
-[![platform-ios](https://img.shields.io/badge/platform-ios--macos-lightgrey.svg)](https://developer.apple.com/)
+[![platform-ios](https://img.shields.io/badge/platform-ios-lightgrey.svg)](https://developer.apple.com/)
 [![iOS SDK](https://img.shields.io/badge/iOS_SDK-13.0-green.svg?style=flat-square)](https://developer.apple.com/)
 [![Xcode Version](https://img.shields.io/badge/Xcode-11.7-red.svg?style=flat-square)](https://developer.apple.com/)
 [![Swift 4.2](https://img.shields.io/badge/swift-4.2-red.svg?style=flat)](https://developer.apple.com/swift)
