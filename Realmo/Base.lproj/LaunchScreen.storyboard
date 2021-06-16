@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Realm𝓸 " textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="28" translatesAutoresizingMaskIntoConstraints="NO" id="SgI-kT-3e1">
+                                <rect key="frame" x="22.5" y="244" width="275" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SgI-kT-3e1" secondAttribute="height" multiplier="55:16" id="0vM-Hk-64M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="56"/>
+                                <color key="textColor" name="Color1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="EkM-oy-0Uh">
+                                <rect key="frame" x="8" y="484" width="304" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="fY3-jG-byc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" name="Color1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="BmU-Nm-Xh4">
+                                <rect key="frame" x="8" y="512" width="304" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BmU-Nm-Xh4" secondAttribute="height" multiplier="76:7" id="aSG-Qi-0Mv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="12"/>
+                                <color key="textColor" name="Color1"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SgI-kT-3e1" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.859375" id="3hC-6C-Ba4"/>
+                            <constraint firstItem="SgI-kT-3e1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="4nw-fB-0Co"/>
+                            <constraint firstItem="SgI-kT-3e1" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5W1-pl-piZ"/>
+                            <constraint firstItem="EkM-oy-0Uh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6Vx-oD-fCe"/>
+                            <constraint firstItem="BmU-Nm-Xh4" firstAttribute="top" secondItem="EkM-oy-0Uh" secondAttribute="bottom" id="7om-3r-0j2"/>
+                            <constraint firstItem="BmU-Nm-Xh4" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="T8n-Sm-gzz"/>
+                            <constraint firstItem="BmU-Nm-Xh4" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.95" id="a80-VH-Rxm"/>
+                            <constraint firstItem="EkM-oy-0Uh" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.95" id="cdx-7B-9dm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BmU-Nm-Xh4" secondAttribute="bottom" constant="28" id="tca-Kd-bQ1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Color1">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
