@@ -1,6 +1,5 @@
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/38044758/122239936-fdbcc300-cede-11eb-97f7-cbfd1a9c806a.png" width="250px"/><br/>
-  Realmo
 </h1>
 <p align="center">A simple Swift Application to demonstrate the use of a Realm database to store data locally.</p>
 
